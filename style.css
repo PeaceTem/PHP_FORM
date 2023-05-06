@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    flex-direction: column-reverse;
+    flex-direction: row;
 }
 
 .form-box{
@@ -58,6 +58,8 @@ input[type="submit"]:hover{
     background:white;
 }
 .error{
+    word-wrap: break-word;
+    width: 350px;
     color: rgb(239, 43, 43);
     background-color: rgb(242, 216, 216);
     padding: 7px;

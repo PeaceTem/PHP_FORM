@@ -3,10 +3,11 @@
   <label for="search">Search:</label>
   <input type="text" name="search" id="search" placeholder="search" value="<?php 
   if (isset($_GET['search'])) {
-    // $search_term = mysqli_real_escape_string($conn, $_GET['search']);
     $data = trim($_GET['search']);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
+    $data = str_replace("+", "", $data);
+
     echo $data;
     } ?>
     ">

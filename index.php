@@ -91,9 +91,7 @@
       <?php require 'database.php' ?>
     </div>
 
-<!-- Don't forget to add javascript
   <script src="script.js" type="text/javascript"></script>
- -->
 </body>
 </html>
 

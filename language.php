@@ -1,7 +1,7 @@
 
 
 <?php
-require 'db_connection.php';
+require 'connect.php';
 
 $sqlLanguage = "SELECT * FROM language";
 $result_language = mysqli_query($conn, $sqlLanguage);

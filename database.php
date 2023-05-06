@@ -1,7 +1,5 @@
-
-
 <?php
-require 'db_connection.php';
+require 'connect.php';
 
 $sql = "SELECT * FROM account";
 $result = mysqli_query($conn, $sql);

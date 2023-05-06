@@ -91,17 +91,17 @@
       <?php require 'database.php' ?>
     </div>
 
-<script src="script.js" type="text/javascript"></script>
+<!-- Don't forget to add javascript
+  <script src="script.js" type="text/javascript"></script>
+ -->
 </body>
 </html>
 
 <?php
-require 'db_connection.php';
+require 'connect.php';
 // Define variables and set to empty values
 $name = $email = $password = $phone = $gender = $language = $zip = $about = "";
 $name_error = $email_error = $password_error = $phone_error = $gender_error = $language_error = $zip_error = $about_error = "";
-
-
 
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -218,10 +218,6 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-
-
-
-
 
 
 ?>

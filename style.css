@@ -1,9 +1,10 @@
 body{
-    background: linear-gradient(45deg, #b294ce,  #8a2be2);
+    background: linear-gradient(45deg, #88af8f,  #2be249);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column-reverse;
 }
 
 .form-box{
@@ -78,7 +79,7 @@ input[type="submit"]:hover{
     top: 20px;
     color: white;
     /* right: 20px; */
-    background-color: #4CAF50;
+    background-color: #4c4caf;
     padding: 10px;
     display: block;
     font-size: large;

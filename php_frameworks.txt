@@ -1,0 +1,18 @@
+Laravel and Symfony
+
+There are numerous PHP frameworks available for web development, but two 
+widely-used frameworks are Laravel and Symfony.
+
+Laravel is a free, open-source PHP web framework that was introduced in 2011. It
+ provides developers with a comprehensive set of tools and features such as routing,
+  ORM, MVC architecture, template engine, authentication, and more. Laravel is
+   well-known for its clear and concise syntax, and it is designed to help developers
+    create efficient and scalable web applications quickly.
+
+Similarly, Symfony is another widely-used, free, open-source PHP web framework that
+ has been available since 2005. It is a complete framework that includes many
+  built-in functionalities and adheres to the Model-View-Controller (MVC) pattern.
+   Symfony is extremely versatile and modular, allowing developers to select the
+    specific components they need for their projects. Furthermore, Symfony has a large
+     and active community, which implies that there are plenty of resources and
+      third-party packages available to assist developers in getting started.
